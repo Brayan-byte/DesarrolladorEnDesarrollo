@@ -5,15 +5,15 @@ body{
 }
 
 h1{
-  font-family: 'Kalam', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #DE2D63;
 }
 
 h2{
   font-size:2.5rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #66BFBF;
+  color: #DE2D63;
 
 }
 
@@ -21,6 +21,11 @@ h3{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color:#11999E;
   font-size: 28px;
+}
+h4{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #DE2D63;
+  font-size: 24px;
 }
 
 a{
@@ -46,7 +51,7 @@ p{
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
-
+  background-image: url("../images/background-software.jpg");
 }
 
 .Title{
@@ -55,18 +60,6 @@ p{
 
 .pro{
   text-decoration: underline;
-}
-
-.top-cloud{
- position: absolute;
- top:50px;
- right:650px;
-
-}
-.bottom-cloud{
-  position: absolute;
-  left:600px;
-  bottom:300px;
 }
 
 .profile-photo{
@@ -90,7 +83,12 @@ padding: 50px 0 20px;
   text-align: left;
   overflow: auto;
 }
-
+.proyectos-personales{
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+  overflow: auto;
+}
 .img-programming{
 width:25%;
 float: left;
@@ -112,6 +110,13 @@ margin-bottom: 50px;
 .copy{
   color: #EAF6F6;
   margin-bottom: 50px;
+}
+.gas-check-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 25%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .footer-link{
